@@ -16,7 +16,7 @@ server {
     listen 80;
 	listen [::]:80;
     server_name frontazure.luistrujillo.me;
-    root /home/nginx/frontend;
+    root /home/ubuntu/frontend;
     index index.html;
     location / {
         try_files $uri $uri/ =404;
